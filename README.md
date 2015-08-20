@@ -1,0 +1,1 @@
+Example deploying web service using jaxrs and cxf

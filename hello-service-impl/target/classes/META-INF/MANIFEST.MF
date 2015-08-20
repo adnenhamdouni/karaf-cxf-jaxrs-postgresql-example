@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1440079384206
+Build-Jdk: 1.8.0_60
+Built-By: adnen
+Bundle-Activator: com.hello.service.impl.ServiceActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: hello-service-impl
+Bundle-SymbolicName: hello-service-impl
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.hello.service.impl;uses:="org.osgi.framework";versio
+ n="1.0.0.SNAPSHOT"
+Export-Service: com.hello.service.impl.HelloService
+Import-Package: org.osgi.framework;version="[1.6,2)",org.osgi.service.bl
+ ueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0

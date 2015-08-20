@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1440079387436
+Build-Jdk: 1.8.0_60
+Built-By: adnen
+Bundle-Activator: com.hello.rest.RestActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: hello-rest
+Bundle-SymbolicName: hello-rest
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.hello.rest;uses:="javax.ws.rs,com.hello.service.impl
+ ,org.osgi.framework";version="1.0.0.SNAPSHOT"
+Import-Package: com.hello.service.impl;version="[1.0,2)",javax.ws.rs;ver
+ sion="[2.0,3)",org.osgi.framework;version="[1.6,2)",org.osgi.service.bl
+ ueprint;version="[1.0.0,2.0.0)"
+Import-Service: com.hello.service.impl.HelloService;multiple:=false
+Tool: Bnd-1.50.0
